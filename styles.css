@@ -65,6 +65,16 @@ img{
 .cart:hover{
   background-color: hsl(212, 21%, 14%);
 }
+a{
+  text-decoration: none;
+  color: hsl(212, 21%, 14%);
+}
+footer{
+  position: absolute;
+  margin: auto;
+  bottom : 10px;
+  left : 40%;
+}
 @media (max-width: 575px) {
   img{
     width:100%;
@@ -77,14 +87,8 @@ img{
     margin : 10px;
     flex-direction: column;
   }
+  footer{
+    display : none;
+  }
 }
-a{
-  text-decoration: none;
-  color: hsl(212, 21%, 14%);
-}
-footer{
-  position: absolute;
-  margin: auto;
-  bottom : 10px;
-  left : 40%;
-}
+
